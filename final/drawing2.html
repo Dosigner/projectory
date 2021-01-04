@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8"> <!--메타 태그는 웹 서버와 웹 브라우저 간에 상호교환되는 정보-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--브라우저 너비를 장치 너비에 맞추어 표시-->
+    <meta http-equiv="Page-Enter" content="revealtrans(Duration=1,Transition=12)" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+    <link rel="stylesheet" href="style2.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>    
+    <title>프로젝토리 뮤지엄</title>
+</head>
+<body>
+    <div id="overlay" >
+        <div class="detail">
+            <div class="slider_wrap">
+                <div class="slider">
+                    <div><img src="로이_의상.png" title="Funcky roots" alt="상세이미지1"></div>
+                    <div><img src="여름_휴지통.png" title="The long and winding road" alt="상세이미지2"></div>
+                    <div><img src="로이_의상.png" title="Happy trees" alt="상세이미지3"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="normal">
+        <nav class ="navbar">
+            <ul class="navbar_menu">
+                <li><a href="./test.html">메이킹</a></li>
+                <li id="select"><a href="./drawing2.html">미술</a></li>
+                <li><a href="./writing.html">글</a></li>
+                <li><a href="./video2.html">영상</a></li>
+                <li><a href="./music2.html">음악</a></li>
+                <li><a href="./etc.html">기타</a></li>
+            </ul>
+            <div class="navbar_logo">
+                    <img src="projectory_logo.svg" alt="프로젝토리 뮤지엄 홈">
+                </a>
+            </div>
+        </nav>
+        
+        <!--배너 요소-->
+        <div class="banner">
+            <p class="typing-txt">" 모든 위대한 예술가도 맨 처음에는 아마추어였다. "*Ralph Waldo Emerson</p>
+            <p class="typing"></p>
+            <img src="배너 이미지2.png" alt="메이킹 이미지">
+        </div>
+        
+        <!--멤버/크루 모드 버튼-->
+        <div class="who_btn">
+            <button type="button"><img src="mem_btn.svg" alt="멤버"></button>
+            <button type="button"><img src="crew_btn.svg" alt="크루"></button>
+        </div>
+
+        
+
+        <!--============================================-->
+        <div class="archieve">
+            <span class="fig_top" >
+                <p class="description">
+                    여름<br>" 스마트 휴지통 "
+                </p>
+                <img onclick="on('1')" src="여름_휴지통.png" alt="여름_휴지통">
+            </span>
+
+            <span class="fig_bottom">
+                <p class="description">
+                    로이<br>" 인형 의상 제작 "
+                </p>
+                <img onclick="on('2')" src="로이_의상.png" alt="로이_의상">
+            </span>
+            <span class="fig_top">
+                <p class="description">
+                    카드<br>" R U OK "
+                </p>
+                <img onclick="on('3')" src="카드_RU.png" alt="카드_RUOK?">
+            </span>
+
+            <span class="fig_bottom">
+                <p class="description">
+                    프로젝토리 워크숍<br>"하늘색은<br> 정말 하늘색일까?"
+                </p>
+                <img onclick="on('4')" src="워크숍.png" alt="워크숍">
+            </span>
+        </div>
+    </div>
+    <script src="main2.js"></script>
+</body>
+</html>
