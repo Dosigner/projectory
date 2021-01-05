@@ -114,8 +114,8 @@ $('#overlay').click(function(e) {
 $(function() {
     $("button img[alt='크루']").on("click", function() {
         // <img>요소 중에서 alt 속성값이 "flower"인 요소를 모두 선택함.
-        $("img[alt='크루']").attr("src", "https://dosigner.github.io/projectory/mem_btn2.svg");
-        $("img[alt='멤버']").attr("src", "https://dosigner.github.io/projectory/crew_btn2.svg");
+        $("img[alt='크루']").attr("src", "https://dosigner.github.io/projectory/final/mem_btn2.svg");
+        $("img[alt='멤버']").attr("src", "https://dosigner.github.io/projectory/final/crew_btn2.svg");
         var list = document.getElementsByClassName("description");
         list[3].innerHTML = '지뉴<br>"자율주행자동차"';
         list[0].innerHTML = '스카이<br>"더빙인사이드"';
@@ -127,8 +127,8 @@ $(function() {
 $(function() {
     $("button img[alt='멤버']").on("click", function() {
         // <img>요소 중에서 alt 속성값이 "flower"인 요소를 모두 선택함.
-        $("img[alt='크루']").attr("src", "https://dosigner.github.io/projectory/crew_btn.svg");
-        $("img[alt='멤버']").attr("src", "https://dosigner.github.io/projectory/mem_btn.svg");
+        $("img[alt='크루']").attr("src", "https://dosigner.github.io/projectory/final/crew_btn.svg");
+        $("img[alt='멤버']").attr("src", "https://dosigner.github.io/projectory/final/mem_btn.svg");
         var list = document.getElementsByClassName("description");
         list[3].innerHTML = '프로젝토리 워크숍<br>"하늘색은<br> 정말 하늘색일까?"';
         list[0].innerHTML = '여름<br>" 스마트 휴지통 "';
