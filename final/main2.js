@@ -54,9 +54,9 @@ function on(number) {
     document.getElementById("normal").style.top=scrollPos;
     document.getElementById("normal").style.position="fixed";
     if(number==1){
-        $("img[alt='상세이미지1']").attr("src","이미지 9.png");
-        $("img[alt='상세이미지2']").attr("src","로이_의상.png");
-        $("img[alt='상세이미지3']").attr("src","이미지 9.png");
+        $("img[alt='상세이미지1']").attr("src","/final/이미지 9.png");
+        $("img[alt='상세이미지2']").attr("src","/final/로이_의상.png");
+        $("img[alt='상세이미지3']").attr("src","/final/이미지 9.png");
         $('.slider').bxSlider({
             mode: 'fade',
             captions: false,
@@ -64,9 +64,9 @@ function on(number) {
         });
     }
     else if(number==2){
-        $("img[alt='상세이미지1']").attr("src","이미지 9.png");
-        $("img[alt='상세이미지2']").attr("src","로이_의상.png");
-        $("img[alt='상세이미지3']").attr("src","이미지 9.png");
+        $("img[alt='상세이미지1']").attr("src","/final/이미지 9.png");
+        $("img[alt='상세이미지2']").attr("src","/final/로이_의상.png");
+        $("img[alt='상세이미지3']").attr("src","/final/이미지 9.png");
         $('.slider').bxSlider({
             mode: 'horizontal',
             captions: false,
@@ -74,9 +74,9 @@ function on(number) {
         });
     }
     else if(number==3){
-        $("img[alt='상세이미지1']").attr("src","이미지 9.png");
-        $("img[alt='상세이미지2']").attr("src","로이_의상.png");
-        $("img[alt='상세이미지3']").attr("src","이미지 9.png");
+        $("img[alt='상세이미지1']").attr("src","/final/이미지 9.png");
+        $("img[alt='상세이미지2']").attr("src","/final/로이_의상.png");
+        $("img[alt='상세이미지3']").attr("src","/final/이미지 9.png");
         $('.slider').bxSlider({
             mode: 'horizontal',
             captions: false,
@@ -84,9 +84,9 @@ function on(number) {
         });
     }
     else if(number==4){
-        $("img[alt='상세이미지1']").attr("src","이미지 9.png");
-        $("img[alt='상세이미지2']").attr("src","로이_의상.png");
-        $("img[alt='상세이미지3']").attr("src","이미지 9.png");
+        $("img[alt='상세이미지1']").attr("src","/final/이미지 9.png");
+        $("img[alt='상세이미지2']").attr("src","/final/로이_의상.png");
+        $("img[alt='상세이미지3']").attr("src","/final/이미지 9.png");
         $('.slider').bxSlider({
             mode: 'horizontal',
             captions: false,
