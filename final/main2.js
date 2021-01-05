@@ -54,9 +54,9 @@ function on(number) {
     document.getElementById("normal").style.top=scrollPos;
     document.getElementById("normal").style.position="fixed";
     if(number==1){
-        $("img[alt='상세이미지1']").attr("src","/final/이미지 9.png");
-        $("img[alt='상세이미지2']").attr("src","/final/로이_의상.png");
-        $("img[alt='상세이미지3']").attr("src","/final/이미지 9.png");
+        $("img[alt='상세이미지1']").attr("src","https://dosigner.github.io/projectory/final/이미지 9.png");
+        $("img[alt='상세이미지2']").attr("src","https://dosigner.github.io/projectory/final/로이_의상.png");
+        $("img[alt='상세이미지3']").attr("src","https://dosigner.github.io/projectory/final/이미지 9.png");
         $('.slider').bxSlider({
             mode: 'fade',
             captions: false,
@@ -64,9 +64,9 @@ function on(number) {
         });
     }
     else if(number==2){
-        $("img[alt='상세이미지1']").attr("src","/final/이미지 9.png");
-        $("img[alt='상세이미지2']").attr("src","/final/로이_의상.png");
-        $("img[alt='상세이미지3']").attr("src","/final/이미지 9.png");
+        $("img[alt='상세이미지1']").attr("src","https://dosigner.github.io/projectory/final/이미지 9.png");
+        $("img[alt='상세이미지2']").attr("src","https://dosigner.github.io/projectory/final/로이_의상.png");
+        $("img[alt='상세이미지3']").attr("src","https://dosigner.github.io/projectory/final/이미지 9.png");
         $('.slider').bxSlider({
             mode: 'horizontal',
             captions: false,
@@ -74,9 +74,9 @@ function on(number) {
         });
     }
     else if(number==3){
-        $("img[alt='상세이미지1']").attr("src","/final/이미지 9.png");
-        $("img[alt='상세이미지2']").attr("src","/final/로이_의상.png");
-        $("img[alt='상세이미지3']").attr("src","/final/이미지 9.png");
+        $("img[alt='상세이미지1']").attr("src","https://dosigner.github.io/projectory/final/이미지 9.png");
+        $("img[alt='상세이미지2']").attr("src","https://dosigner.github.io/projectory/final/로이_의상.png");
+        $("img[alt='상세이미지3']").attr("src","https://dosigner.github.io/projectory/final/이미지 9.png");
         $('.slider').bxSlider({
             mode: 'horizontal',
             captions: false,
@@ -84,9 +84,9 @@ function on(number) {
         });
     }
     else if(number==4){
-        $("img[alt='상세이미지1']").attr("src","/final/이미지 9.png");
-        $("img[alt='상세이미지2']").attr("src","/final/로이_의상.png");
-        $("img[alt='상세이미지3']").attr("src","/final/이미지 9.png");
+        $("img[alt='상세이미지1']").attr("src","https://dosigner.github.io/projectory/final/이미지 9.png");
+        $("img[alt='상세이미지2']").attr("src","https://dosigner.github.io/projectory/final/로이_의상.png");
+        $("img[alt='상세이미지3']").attr("src","https://dosigner.github.io/projectory/final/이미지 9.png");
         $('.slider').bxSlider({
             mode: 'horizontal',
             captions: false,
@@ -127,8 +127,8 @@ $(function() {
 $(function() {
     $("button img[alt='멤버']").on("click", function() {
         // <img>요소 중에서 alt 속성값이 "flower"인 요소를 모두 선택함.
-        $("img[alt='크루']").attr("src", "/crew_btn.svg");
-        $("img[alt='멤버']").attr("src", "/mem_btn.svg");
+        $("img[alt='크루']").attr("src", "https://dosigner.github.io/projectory/crew_btn.svg");
+        $("img[alt='멤버']").attr("src", "https://dosigner.github.io/projectory/mem_btn.svg");
         var list = document.getElementsByClassName("description");
         list[3].innerHTML = '프로젝토리 워크숍<br>"하늘색은<br> 정말 하늘색일까?"';
         list[0].innerHTML = '여름<br>" 스마트 휴지통 "';
